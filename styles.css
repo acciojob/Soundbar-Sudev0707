@@ -1,1 +1,62 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #a471d9;
+}
+
+.container {
+    text-align: center;
+    border-radius: 20px;
+	display: flex;
+	align-items:center;
+	justify-content:center
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+#buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #644882;
+    color: white;
+}
+
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+.stop {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #644882;
+    color: white;
+    transition: background 0.2s;
+}
+
+.stop:hover {
+    background: #da190b;
+}
